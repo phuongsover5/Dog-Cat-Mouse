@@ -9,3 +9,6 @@ var mouse = new Mouse('Jerry');
 mouse.sayHi();
 var dog = new Dog('Lu');
 dog.sayHi();
+cat.eat(mouse);
+dog.eat(cat);
+console.log(dog);
